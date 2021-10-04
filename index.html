@@ -11,7 +11,7 @@
                 <h1 class="header-title">Item Lister</h1>
             </div>
             <div class="search-box">
-                <input type="text" placeholder="Search here.....">
+                <input id="searchItem" type="text" placeholder="Search here.....">
             </div>
         </header>
 
@@ -19,8 +19,8 @@
             <div class="container">
                 <div class="form-container">
                     <h2 class="title">Add Items</h2>
-                    <form>
-                        <input type="text">
+                    <form id="addForm">
+                        <input type="text" id="itemValue">
                         <input type="submit" value="Submit">
                     </form>
                 </div>
@@ -36,5 +36,7 @@
                 </div>
             </div>
         </main>
+
+        <script src="./dom.js"></script>
     </body>
 </html>
